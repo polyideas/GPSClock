@@ -29,12 +29,13 @@ int fourdigitTime;
 Adafruit_7segment matrix = Adafruit_7segment();
 // Connect the GPS Power pin to 5V
 // Connect the GPS Ground pin to ground
+// Connect the LED Backpack Power pin to 5V
+// Connect the LED Backpack Ground pin to ground
 // If using software serial (sketch example default):
-//   Connect the GPS TX (transmit) pin to Digital 3
-//   Connect the GPS RX (receive) pin to Digital 2
-// If using hardware serial (e.g. Arduino Mega):
-//   Connect the GPS TX (transmit) pin to Arduino RX1, RX2 or RX3
-//   Connect the GPS RX (receive) pin to matching TX1, TX2 or TX3
+//   Connect the GPS TX (transmit) pin to Digital 8
+//   Connect the GPS RX (receive) pin to Digital 7
+//   Connect the LED Backpack C pin to Analog 5
+//   Connect the LED Backpack D pin to Analog 4
 
 // If using software serial, keep these lines enabled
 // (you can change the pin numbers to match your wiring):
