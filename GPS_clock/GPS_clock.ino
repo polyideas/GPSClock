@@ -139,10 +139,6 @@ void loop()                     // run over and over again
     //Serial.println(GPS.lastNMEA());   // this also sets the newNMEAreceived() flag to false
   
     GPS.parse(GPS.lastNMEA());   // this also sets the newNMEAreceived() flag to false
-
-if ((GPS.month = 3) && (GPS.day >=
-
-
  if (GPS.hour <= 8) {
        fourdigitTime = ((GPS.hour + 4) *100)+ GPS.minute;
  } else if ((GPS.hour > 8) && (GPS.hour <= 20)) {
